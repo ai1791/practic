@@ -104,19 +104,19 @@ public class Main {
             return;
         }
         List<City> cities = rows.stream().map(City::rowToCity).toList();
-        //displays all records to console
-        //System.out.println(cities);
+        displays all records to console
+        System.out.println(cities);
 
-        //sorting by name
-        //sortingByName(cities);
+        sorting by name
+        sortingByName(cities);
 
-        // sorting by district and name
-        //sortingByDistrictAndName(cities);
+        sorting by district and name
+        sortingByDistrictAndName(cities);
 
-        // show max city population and index of city with max population
-        //showMaxCityPopulation(cities);
+        show max city population and index of city with max population
+        showMaxCityPopulation(cities);
 
-        // show list of rows "region - count of cities in this region"
+        show list of rows "region - count of cities in this region"
         countCitiesInRegion(cities);
     }
 }
